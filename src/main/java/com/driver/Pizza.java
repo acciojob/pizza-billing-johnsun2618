@@ -67,16 +67,16 @@ public class Pizza {
         if(!isBillGenerated){
 
             if(isCheeseAdded == true){
-                bill = bill + "Extra Cheese Added : " + cheesePrice + "\n";
+                bill = bill + "Extra Cheese Added: " + cheesePrice + "\n";
             }
             if(isToppingAdded == true){
-                bill = bill + "Extra Toppings Added : " + toppingPrice + "\n";
+                bill = bill + "Extra Toppings Added: " + toppingPrice + "\n";
             }
             if(isPaperBagAdded == true){
-                bill = bill + "Paper Bag Added : " + paperBagPrice + "\n";
+                bill = bill + "Paper Bag Added: " + paperBagPrice + "\n";
             }
 
-            bill = bill + "Total Price : " + totalPrice + "\n";
+            bill = bill + "Total Price: " + totalPrice + "\n";
 
             isBillGenerated = true;
         }
