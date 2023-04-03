@@ -66,13 +66,13 @@ public class Pizza {
     public String getBill(){
         if(!isBillGenerated){
 
-            if(isCheeseAdded){
+            if(isCheeseAdded == true){
                 bill = bill + "Extra Cheese Added : " + cheesePrice + "\n";
             }
-            if(isToppingAdded){
+            if(isToppingAdded == true){
                 bill = bill + "Extra Toppings Added : " + toppingPrice + "\n";
             }
-            if(isPaperBagAdded){
+            if(isPaperBagAdded == true){
                 bill = bill + "Paper Bag Added : " + paperBagPrice + "\n";
             }
 
